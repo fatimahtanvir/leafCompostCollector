@@ -50,7 +50,7 @@ Leaves are a carbon-rich compost ingredient. Collected and composted, they becom
 | Drive | 2 DC gear motors, laser-cut wooden wheels, L298N motor driver |
 | Pickup | Rake roller (5 printed tine wheels + spacers on a dowel), DC motor, second L298N |
 | Chassis | Laser-cut acrylic frame, removable wooden leaf bin |
-| Power | Battery pack with a buck converter for the Pi |
+| Power | 9V battery source for the motors; 5V USB power bank for the Raspberry Pi |
 
 Wiring, GPIO pinout and the full parts list: [`docs/hardware.md`](docs/hardware.md)
 
