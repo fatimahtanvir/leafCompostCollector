@@ -1,0 +1,18 @@
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets
+.env
+*.key
+
+# Large model weights (share via Releases instead)
+*.pt
+*.onnx
