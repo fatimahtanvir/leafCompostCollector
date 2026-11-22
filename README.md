@@ -114,8 +114,6 @@ See [`software/README.md`](software/README.md) for training, local ONNX inferenc
 
 ## Team
 
-## Team
-
 <p align="center">
   <img src="docs/images/team.jpg" width="60%" alt="The team at MakeCU">
 </p>
