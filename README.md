@@ -8,7 +8,7 @@ Built in one weekend at [MakeCU 2026](https://makecu2026.devpost.com/) (Columbia
   <img src="docs/images/demo-sweep.gif" width="300" alt="The robot's rotating rake roller sweeping dry leaves on a sidewalk">
 </p>
 
-[Devpost](https://devpost.com/software/leaf-compost-collector) · [Demo video](https://www.youtube.com/watch?v=4_0j8XnGMl8) · [Leaf detector code](https://github.com/lynnlo/leaf-detector)
+[Devpost](https://devpost.com/software/leaf-compost-collector) · [Demo video](https://www.youtube.com/watch?v=4_0j8XnGMl8) · [Code](software/)
 
 ---
 
@@ -62,7 +62,7 @@ Design notes, dimensions and print settings: [`docs/roller-design.md`](docs/roll
 
 ## Software
 
-The perception and control code lives in **[lynnlo/leaf-detector](https://github.com/lynnlo/leaf-detector)**.
+The perception and control code is in [`software/`](software/), written by Lynn Ong (original repository: [lynnlo/leaf-detector](https://github.com/lynnlo/leaf-detector)).
 
 | Script | What it does |
 |---|---|
@@ -82,7 +82,7 @@ Motors only move when `--drive` is passed, so every script can be tested safely 
 ```bash
 sudo apt update
 sudo apt install -y python3-opencv python3-picamera2 python3-gpiozero python3-numpy
-git clone https://github.com/lynnlo/leaf-detector.git && cd leaf-detector
+git clone https://github.com/fatimahtanvir/leafCompostCollector.git && cd leafCompostCollector/software
 python3 -m venv --system-site-packages ~/leafvenv && source ~/leafvenv/bin/activate
 pip install -r requirements-pi.txt
 
@@ -91,7 +91,7 @@ python pickup.py            # dry run: prints commands, motors stay still
 python pickup.py --drive    # actually drive and sweep
 ```
 
-See the leaf-detector repository for training, local ONNX inference and all options.
+See [`software/README.md`](software/README.md) for training, local ONNX inference and all options.
 
 ## Results
 
@@ -121,7 +121,7 @@ See the leaf-detector repository for training, local ONNX inference and all opti
 | Member | Role |
 |---|---|
 | **Orlando James Putnam-Bagley** | Acrylic chassis design, vehicle assembly, soldering, manufacturing troubleshooting |
-| **Lynn Ong** | Computer vision, leaf detector, robot software ([leaf-detector](https://github.com/lynnlo/leaf-detector)) |
+| **Lynn Ong** | Computer vision, leaf detector, robot software ([`software/`](software/)) |
 | **Ziyu Li** | Electrical and mechanical integration |
 | **Fatima Tanveer** | Rake roller: CAD in Fusion 360, 3D printing, pickup mechanism |
 

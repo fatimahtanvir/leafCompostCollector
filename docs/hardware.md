@@ -46,7 +46,7 @@ Tie the grounds together: Pi GND, both L298N GND terminals and the battery negat
 
 Channel B on board 2 is unused, so BCM 13, 19 and 26 stay free.
 
-These pin numbers come from `drive.py` and `pickup.py` in [lynnlo/leaf-detector](https://github.com/lynnlo/leaf-detector). If you change the wiring, change it there too.
+These pin numbers come from `drive.py` and `pickup.py` in [`software/`](../software/). If you change the wiring, change it there too.
 
 ## Power notes
 

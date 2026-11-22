@@ -1,0 +1,22 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments (recreate these on each machine)
+.venv/
+venv/
+
+# Local test harness; not part of the robot runtime
+test_*.py
+
+# Model weights and exported artefacts
+models/
+dataset/
+*.pt
+*.onnx
+*.tflite
+*.ncnn
+*.h264
+
+# Runtime output
+captures/
