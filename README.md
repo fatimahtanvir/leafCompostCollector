@@ -114,16 +114,13 @@ See [`software/README.md`](software/README.md) for training, local ONNX inferenc
 
 ## Team
 
+## Team
+
 <p align="center">
   <img src="docs/images/team.jpg" width="60%" alt="The team at MakeCU">
 </p>
 
-| Member | Role |
-|---|---|
-| **Orlando James Putnam-Bagley** | Acrylic chassis design, vehicle assembly, soldering, manufacturing troubleshooting |
-| **Lynn Ong** | Computer vision, leaf detector, robot software ([`software/`](software/)) |
-| **Ziyu Li** | Electrical and mechanical integration |
-| **Fatima Tanveer** | Rake roller: CAD in Fusion 360, 3D printing, pickup mechanism |
+Built by **Orlando James Putnam-Bagley**, **Lynn Ong**, **Ziyu Li** and **Fatima Tanveer**.
 
 ## License
 
