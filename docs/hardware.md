@@ -17,7 +17,7 @@
 | 6 | 3D-printed spacers | 4 × 19 mm between wheels, 2 × 14.5 mm at the ends |
 | 1 | Wooden dowel, 6.6 mm diameter, about 135 mm long | Roller shaft |
 | 1 | Battery pack | Motor power |
-| 1 | Buck converter | 5 V supply for the Pi |
+| 1 | Power bank | 5 V supply for the Pi |
 
 ## Wiring
 
